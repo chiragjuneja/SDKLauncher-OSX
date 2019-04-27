@@ -8,20 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		552FC46616F39AB5000E73BA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 552FC46516F39AB5000E73BA /* icon.icns */; };
-		850B1A5916A61F9900619C3C /* libObjective-Zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 850B1A5816A61F9900619C3C /* libObjective-Zip.a */; };
+		5998CC401CD4E0CF00BDAF46 /* NSDate+RDDateAsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998CC3F1CD4E0CF00BDAF46 /* NSDate+RDDateAsString.m */; };
+		5998CC451CD4E38400BDAF46 /* RDPackageResourceDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998CC441CD4E38400BDAF46 /* RDPackageResourceDataResponse.m */; };
+		83412B311AC98D660074111F /* readium-external-libs.js.bundles.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83412B271AC98D530074111F /* readium-external-libs.js.bundles.js */; };
+		83412B341AC98D660074111F /* readium-shared-js.js.bundles.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83412B2A1AC98D530074111F /* readium-shared-js.js.bundles.js */; };
+		83766D471A0E9C77008077E1 /* epubReadingSystem.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83766D431A0E9C53008077E1 /* epubReadingSystem.js */; };
+		83D7BD091ABA114000F541DF /* sdk.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83D7BCF51ABA110300F541DF /* sdk.css */; };
+		83EBB4A119F566310083E8F1 /* annotations.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = A250DB706A1422DFE8EF2706 /* annotations.css */; };
+		83F7B63D1B2ACADA00DFF6B6 /* readium-cfi-js.js.bundles.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B63B1B2ACACC00DFF6B6 /* readium-cfi-js.js.bundles.js */; };
+		83F7B6451B2ACB0600DFF6B6 /* readium-shared-js_all.js.bundles.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B63F1B2ACAF300DFF6B6 /* readium-shared-js_all.js.bundles.js */; };
+		83F7B64D1B2ACB5D00DFF6B6 /* reader_RequireJS-multiple-bundles.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6471B2ACB5200DFF6B6 /* reader_RequireJS-multiple-bundles.html */; };
+		83F7B64E1B2ACB5D00DFF6B6 /* reader_RequireJS-no-optimize.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6481B2ACB5200DFF6B6 /* reader_RequireJS-no-optimize.html */; };
+		83F7B64F1B2ACB5D00DFF6B6 /* reader_RequireJS-single-bundle.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6491B2ACB5200DFF6B6 /* reader_RequireJS-single-bundle.html */; };
+		83F7B67B1B2AD72800DFF6B6 /* readium-cfi-js.js.map in Sources */ = {isa = PBXBuildFile; fileRef = 83F7B66F1B2AD72800DFF6B6 /* readium-cfi-js.js.map */; };
+		83F7B67D1B2AD72800DFF6B6 /* readium-external-libs.js.map in Sources */ = {isa = PBXBuildFile; fileRef = 83F7B6711B2AD72800DFF6B6 /* readium-external-libs.js.map */; };
+		83F7B6811B2AD72800DFF6B6 /* readium-shared-js.js.map in Sources */ = {isa = PBXBuildFile; fileRef = 83F7B6751B2AD72800DFF6B6 /* readium-shared-js.js.map */; };
+		83F7B6851B2AD72800DFF6B6 /* readium-shared-js_all.js.map in Sources */ = {isa = PBXBuildFile; fileRef = 83F7B6791B2AD72800DFF6B6 /* readium-shared-js_all.js.map */; };
+		83F7B6861B2AD75200DFF6B6 /* readium-cfi-js.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B66E1B2AD72800DFF6B6 /* readium-cfi-js.js */; };
+		83F7B6871B2AD75200DFF6B6 /* readium-cfi-js.js.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B66F1B2AD72800DFF6B6 /* readium-cfi-js.js.map */; };
+		83F7B6881B2AD75200DFF6B6 /* readium-external-libs.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6701B2AD72800DFF6B6 /* readium-external-libs.js */; };
+		83F7B6891B2AD75200DFF6B6 /* readium-external-libs.js.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6711B2AD72800DFF6B6 /* readium-external-libs.js.map */; };
+		83F7B68C1B2AD75200DFF6B6 /* readium-shared-js.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6741B2AD72800DFF6B6 /* readium-shared-js.js */; };
+		83F7B68D1B2AD75200DFF6B6 /* readium-shared-js.js.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6751B2AD72800DFF6B6 /* readium-shared-js.js.map */; };
+		83F7B68E1B2AD75200DFF6B6 /* RequireJS.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6761B2AD72800DFF6B6 /* RequireJS.js */; };
+		83F7B6901B2AD75200DFF6B6 /* readium-shared-js_all.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6781B2AD72800DFF6B6 /* readium-shared-js_all.js */; };
+		83F7B6911B2AD75200DFF6B6 /* readium-shared-js_all.js.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B6791B2AD72800DFF6B6 /* readium-shared-js_all.js.map */; };
+		83F7B6921B2AD75200DFF6B6 /* mathjax in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83F7B66C1B2AD70600DFF6B6 /* mathjax */; };
 		850B1A5B16A61FB900619C3C /* ePub3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 850B1A5A16A61FB900619C3C /* ePub3.dylib */; };
 		850B1A9016A631E800619C3C /* LOXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 850B1A8D16A631E800619C3C /* LOXUtil.mm */; };
 		850B1A9716A6320200619C3C /* LOXSpineViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 850B1A9416A6320200619C3C /* LOXSpineViewController.mm */; };
 		850B1A9816A6320200619C3C /* LOXWebViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 850B1A9616A6320200619C3C /* LOXWebViewController.mm */; };
+		851FFCFE17DCFBF90090BA3C /* green_dot_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 851FFCFD17DCFBF90090BA3C /* green_dot_big.png */; };
 		855CFDB61696200B00AD311E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CFDB51696200B00AD311E /* WebKit.framework */; };
 		855CFE4B169B912300AD311E /* LOXePubSdkApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 855CFE4A169B912300AD311E /* LOXePubSdkApi.mm */; };
 		855CFEE8169DFA3E00AD311E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CFEE7169DFA3D00AD311E /* libz.dylib */; };
-		8561A1F0178B6F1B007D15D3 /* js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8561A1E6178B6ED1007D15D3 /* js */; };
-		8561A1F1178B6F1E007D15D3 /* lib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8561A1E7178B6ED1007D15D3 /* lib */; };
-		8561A1F3178B6F25007D15D3 /* reader.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8561A1E9178B6ED1007D15D3 /* reader.html */; };
 		856354F716DE7C3A009DA283 /* BookmarkDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856354F616DE7C3A009DA283 /* BookmarkDlg.xib */; };
 		856354FA16DEB3AF009DA283 /* LOXBookmarkEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856354F916DEB3AF009DA283 /* LOXBookmarkEditController.m */; };
-		85739532172AE0280071B66C /* ePub3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558E562E16EF859800FCF273 /* ePub3.dylib */; };
+		85739532172AE0280071B66C /* ePub3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558E562E16EF859800FCF273 /* ePub3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8578F14A16D4095F003914EB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8578F14816D4095F003914EB /* Model.xcdatamodeld */; };
 		8597D61216824655000FAAAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8597D61116824655000FAAAF /* Cocoa.framework */; };
 		8597D61C16824655000FAAAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8597D61A16824655000FAAAF /* InfoPlist.strings */; };
@@ -29,35 +52,63 @@
 		8597D62216824655000FAAAF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8597D62016824655000FAAAF /* Credits.rtf */; };
 		8597D62516824655000FAAAF /* LOXAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8597D62416824655000FAAAF /* LOXAppDelegate.mm */; };
 		8597D62816824656000FAAAF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8597D62616824656000FAAAF /* MainMenu.xib */; };
-		85ADCFF417B45CB5009F224E /* static in Resources */ = {isa = PBXBuildFile; fileRef = 85ADCFF317B45CB5009F224E /* static */; };
-		85ADCFF717B45CBC009F224E /* static in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85ADCFF317B45CB5009F224E /* static */; };
 		85C2219F1795C607004B8E1E /* PreferencesDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C2219E1795C607004B8E1E /* PreferencesDlg.xib */; };
 		85C221A21795C67C004B8E1E /* LOXPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C221A11795C67C004B8E1E /* LOXPreferencesController.m */; };
 		85DC4030179074CE0044849D /* host_app_feedback.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85DC402E179074660044849D /* host_app_feedback.js */; };
 		85F74E6316C32A9900D29953 /* LOXPageNumberTextController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85F74E6216C32A9900D29953 /* LOXPageNumberTextController.mm */; };
-		AD8C810A0BAB1FA3DE565736 /* LOXCSSStyle.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C83EF79530E06DC222D53 /* LOXCSSStyle.mm */; };
-		AD8C812AEAEAF14E13663208 /* LOXOpenPageInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8F030432B065A7CE8578 /* LOXOpenPageInfo.mm */; };
-		AD8C8307A455F086503AB0F0 /* LOXSMILParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8910CE17E16E54456051 /* LOXSMILParser.mm */; };
-		AD8C8325C67F7C7C8A97E7F1 /* LOXMediaOverlay.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C86618BE15CA8D585C982 /* LOXMediaOverlay.mm */; };
-		AD8C8393EDA98F7F9606F276 /* LOXUserData.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C842F70081FB730F15DFC /* LOXUserData.mm */; };
+		A250D13E6E7432CF2A40E446 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A250DBC4A054869FB86E1CE2 /* DDLog.m */; };
+		A250D1E2A3BFDE4B6603C02F /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D9A940FA1593BE5148CB /* DDTTYLogger.m */; };
+		A250D1FD76DAB2037CC6E0AA /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D3B2A89DEF6E73108107 /* HTTPRedirectResponse.m */; };
+		A250D2B4047172AADF73BB2C /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D103085F86DB88825478 /* DDNumber.m */; };
+		A250D3038EB41AB2226C2DF8 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250DCD59BBBDAB2C56767C9 /* HTTPErrorResponse.m */; };
+		A250D41015CDDC112DE051AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A250D2A7B354642ABB1F08D5 /* Security.framework */; };
+		A250D446BA1276B0384939B5 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D0128B8A2A9185DE9538 /* HTTPFileResponse.m */; };
+		A250D4F7D74EDE9DA7E90B30 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D18163FD7AEB8177BE46 /* WebSocket.m */; };
+		A250D5C257E6707C6BE17577 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D382CB6E5B76DDACD0A6 /* HTTPServer.m */; };
+		A250D5E01BBAE6876869D474 /* RDPackageResource.mm in Sources */ = {isa = PBXBuildFile; fileRef = A250D033A80FCFDDBF9337EE /* RDPackageResource.mm */; };
+		A250D68A29723F304FF5A543 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D6708A1AAA6F4B9481C2 /* GCDAsyncSocket.m */; };
+		A250D6DBF44801C3D1A7CF6E /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D0FD4F3B3C15444A85DB /* HTTPDataResponse.m */; };
+		A250D732AF1F0DA9FD3CD96A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A250D39B570A41271E334B32 /* IOKit.framework */; };
+		A250D744D6B11E11ED5EBD34 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D2A05DDF15737FE99301 /* ContextFilterLogFormatter.m */; };
+		A250D7459A6A8DFB2E6FA5EC /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D77E99A99403191C67D6 /* HTTPConnection.m */; };
+		A250D78F0849C3A9EDAFB357 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D29AA766072A85D7B831 /* HTTPAuthenticationRequest.m */; };
+		A250D7A7787B6865760CA918 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D63987D30870E1E31DAA /* HTTPAsyncFileResponse.m */; };
+		A250D831FA7429B9F2B36F2B /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D2EF60CBB04156860AA8 /* MultipartFormDataParser.m */; };
+		A250D9ABB23991A12DD5804B /* PackageResourceServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A250DD60BF5DB25EC732A173 /* PackageResourceServer.mm */; };
+		A250DA45DF0ACCA38ED50DB0 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D509BEEFEEFD2F243BBA /* DDASLLogger.m */; };
+		A250DBBAE4D1A71F94E7290A /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D6665E5268AF4E84909A /* DispatchQueueLogFormatter.m */; };
+		A250DBE5055F6CDD04051D05 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A250DF4DEA8E04C8F2CB7869 /* DDFileLogger.m */; };
+		A250DC6319E8A806D5C9ACC2 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A250DEE393D632D66F5FBBA8 /* DDAbstractDatabaseLogger.m */; };
+		A250DCCACA2F6BCB04D001F8 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D657C3538D2211AE4E34 /* HTTPMessage.m */; };
+		A250DCEB5E33A00751B3669B /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D7344C9B671BFC3D6ECD /* MultipartMessageHeaderField.m */; };
+		A250DD5C10D1CE6D1737F510 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D3AA560BDE94BBCD65C4 /* MultipartMessageHeader.m */; };
+		A250DD9FA6AD0E63D835E7BF /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D52D97949832213F1719 /* DDRange.m */; };
+		A250DE2BCBA3D1F1FBA35FD4 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D8BC7FFD446432B1DA6F /* HTTPDynamicFileResponse.m */; };
+		A250DF5C5143788C91EAA34E /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = A250D1CA922B6BFBF3A4AC9D /* DDData.m */; };
+		AD8C8087F9E874AA24BCB4FB /* LOXCSSStyle.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C86462D4DCA8A7961EE7B /* LOXCSSStyle.mm */; };
+		AD8C808F484D84E55FCCDF93 /* LOXTocEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8493AED2C9F0FC78B428 /* LOXTocEntry.m */; };
+		AD8C81F496C12470AAAEC673 /* LOXSpineItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C86C1645932986E6E6120 /* LOXSpineItem.mm */; };
+		AD8C8310007405C604011876 /* LOXSpine.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8BED6E81D7BB521ECA6A /* LOXSpine.mm */; };
+		AD8C83F1876FF6AE1984FF9E /* LOXMediaOverlayController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C823F0CE5D0D7D14C6C4E /* LOXMediaOverlayController.mm */; };
+		AD8C83F7C9CBF4421C50DB15 /* LOXMediaOverlay.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C873FB2C2608840935697 /* LOXMediaOverlay.mm */; };
+		AD8C83FC6397F6AECC59F1FF /* ico_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8C807DDEA3670EF1F8052E /* ico_rate.png */; };
+		AD8C844CC4BC879DBC059A12 /* LOXBookmark.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C843ACC17BE5B9F5CFB72 /* LOXBookmark.mm */; };
 		AD8C8489BFE9EF51568CC65D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8C8579F49901F4DF1AEECE /* CoreData.framework */; };
 		AD8C849E0CA86BA0F7F6BC19 /* LOXSampleStylesProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8F410069609045A3F696 /* LOXSampleStylesProvider.mm */; };
-		AD8C8550B4555639A952A1C7 /* LOXPackage.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C89D0C32F1DF706FD1839 /* LOXPackage.mm */; };
+		AD8C84E70085C3887014C2B7 /* LOXSmilModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8435E8408A2F80BD432B /* LOXSmilModel.mm */; };
 		AD8C8661AD73F6BC538B34AB /* LOXTocView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C821D3AEC654EFB843790 /* LOXTocView.m */; };
-		AD8C8673800C23241F4580E5 /* LOXBook.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8280F38E9B894E512240 /* LOXBook.mm */; };
-		AD8C88181150EF3F56F98CF6 /* LOXToc.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C89FC764D79D48CE677C6 /* LOXToc.mm */; };
+		AD8C8764B6F6057D08B07744 /* LOXUserData.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C87CE9BACCB0F8802A6A6 /* LOXUserData.mm */; };
+		AD8C876EC2AB74129A5C39B4 /* LOXBook.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8EF56EE23726F2B58EB0 /* LOXBook.mm */; };
+		AD8C87A5E0DDDFDCF558D9D9 /* LOXPackage.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C85205029531154E4983B /* LOXPackage.mm */; };
+		AD8C880A9CBF3B579B85F659 /* ico_tts.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8C846121F8B998C2C9CF6F /* ico_tts.png */; };
+		AD8C889EA2064A49E1751C61 /* LOXCurrentPagesInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8FEC6F5BC3C8D400A388 /* LOXCurrentPagesInfo.mm */; };
+		AD8C89B9DCAF136EC55932EB /* LOXPreferences.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C87EB457349509F5BE4CB /* LOXPreferences.mm */; };
 		AD8C89E6EDC52FCF3247DDE2 /* LOXTocViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C84A9A8317F4A33CF8E3F /* LOXTocViewController.mm */; };
 		AD8C8A2A8F33046528CAC333 /* sample_styles.css in Resources */ = {isa = PBXBuildFile; fileRef = AD8C8CF4C1B651BDFFE50D28 /* sample_styles.css */; };
+		AD8C8A793DC709C5840F79B0 /* LOXOpenPageInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C815FCB8A466CB2CD343E /* LOXOpenPageInfo.mm */; };
 		AD8C8AAB286212996B85854B /* LOXCSSParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C83B00F9FB913F1AA9F05 /* LOXCSSParser.mm */; };
-		AD8C8B777241C74E9F43FBC1 /* LOXTocEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C874F5D988F316B2F82AC /* LOXTocEntry.m */; };
-		AD8C8C250F0834BD0A00705A /* LOXPreferences.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8AEAB8B5247A5B9A5850 /* LOXPreferences.mm */; };
 		AD8C8D0C7929CFD9F068D423 /* LOXBookmarksController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8D529AEBFEB697DDD1A6 /* LOXBookmarksController.mm */; };
-		AD8C8DEDA920FC142B70BEFD /* LOXTemporaryFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C844D86553834F8FA6218 /* LOXTemporaryFileStorage.m */; };
-		AD8C8E1A55DF37104794CB0B /* LOXBookmark.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C88680CC24FB32FFF24CF /* LOXBookmark.mm */; };
-		AD8C8F72D3753ECAFD09485C /* LOXSmilModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8894A046205698F938E5 /* LOXSmilModel.mm */; };
-		AD8C8FB20BF45E76CCD9576D /* LOXCurrentPagesInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C80E8161AE8C307CBD84B /* LOXCurrentPagesInfo.mm */; };
-		AD8C8FBE76DB2FF1310CB0F7 /* LOXSpineItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C888D32C974E22AB2A950 /* LOXSpineItem.mm */; };
-		AD8C8FEC1BEE54616D993C28 /* LOXSpine.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C822BBDDC6CE7D3881F23 /* LOXSpine.mm */; };
+		AD8C8EFDC93A1A1F1B7B9509 /* LOXToc.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD8C8CAC243F70317D0AE999 /* LOXToc.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,10 +149,26 @@
 			dstPath = Scripts;
 			dstSubfolderSpec = 7;
 			files = (
-				8561A1F3178B6F25007D15D3 /* reader.html in CopyFiles */,
-				8561A1F0178B6F1B007D15D3 /* js in CopyFiles */,
-				8561A1F1178B6F1E007D15D3 /* lib in CopyFiles */,
-				85ADCFF717B45CBC009F224E /* static in CopyFiles */,
+				83F7B6861B2AD75200DFF6B6 /* readium-cfi-js.js in CopyFiles */,
+				83F7B6871B2AD75200DFF6B6 /* readium-cfi-js.js.map in CopyFiles */,
+				83F7B6881B2AD75200DFF6B6 /* readium-external-libs.js in CopyFiles */,
+				83F7B6891B2AD75200DFF6B6 /* readium-external-libs.js.map in CopyFiles */,
+				83F7B68C1B2AD75200DFF6B6 /* readium-shared-js.js in CopyFiles */,
+				83F7B68D1B2AD75200DFF6B6 /* readium-shared-js.js.map in CopyFiles */,
+				83F7B68E1B2AD75200DFF6B6 /* RequireJS.js in CopyFiles */,
+				83F7B6901B2AD75200DFF6B6 /* readium-shared-js_all.js in CopyFiles */,
+				83F7B6911B2AD75200DFF6B6 /* readium-shared-js_all.js.map in CopyFiles */,
+				83F7B6921B2AD75200DFF6B6 /* mathjax in CopyFiles */,
+				83F7B64D1B2ACB5D00DFF6B6 /* reader_RequireJS-multiple-bundles.html in CopyFiles */,
+				83F7B64E1B2ACB5D00DFF6B6 /* reader_RequireJS-no-optimize.html in CopyFiles */,
+				83F7B64F1B2ACB5D00DFF6B6 /* reader_RequireJS-single-bundle.html in CopyFiles */,
+				83F7B6451B2ACB0600DFF6B6 /* readium-shared-js_all.js.bundles.js in CopyFiles */,
+				83F7B63D1B2ACADA00DFF6B6 /* readium-cfi-js.js.bundles.js in CopyFiles */,
+				83412B311AC98D660074111F /* readium-external-libs.js.bundles.js in CopyFiles */,
+				83412B341AC98D660074111F /* readium-shared-js.js.bundles.js in CopyFiles */,
+				83D7BD091ABA114000F541DF /* sdk.css in CopyFiles */,
+				83766D471A0E9C77008077E1 /* epubReadingSystem.js in CopyFiles */,
+				83EBB4A119F566310083E8F1 /* annotations.css in CopyFiles */,
 				85DC4030179074CE0044849D /* host_app_feedback.js in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +188,30 @@
 /* Begin PBXFileReference section */
 		552FC46516F39AB5000E73BA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		558E562716EF859800FCF273 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
-		850B1A5816A61F9900619C3C /* libObjective-Zip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libObjective-Zip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5998CC3E1CD4E0CF00BDAF46 /* NSDate+RDDateAsString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RDDateAsString.h"; sourceTree = "<group>"; };
+		5998CC3F1CD4E0CF00BDAF46 /* NSDate+RDDateAsString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RDDateAsString.m"; sourceTree = "<group>"; };
+		5998CC431CD4E38400BDAF46 /* RDPackageResourceDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPackageResourceDataResponse.h; sourceTree = "<group>"; };
+		5998CC441CD4E38400BDAF46 /* RDPackageResourceDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPackageResourceDataResponse.m; sourceTree = "<group>"; };
+		83412B271AC98D530074111F /* readium-external-libs.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-external-libs.js.bundles.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js.bundles.js"; sourceTree = "<group>"; };
+		83412B2A1AC98D530074111F /* readium-shared-js.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js.js.bundles.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js.bundles.js"; sourceTree = "<group>"; };
+		83766D431A0E9C53008077E1 /* epubReadingSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = epubReadingSystem.js; path = LauncherOSX/ReaderScripts/epubReadingSystem.js; sourceTree = "<group>"; };
+		83D7BCF51ABA110300F541DF /* sdk.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = sdk.css; path = "readium-shared-js/build-output/css/sdk.css"; sourceTree = "<group>"; };
+		83F7B63B1B2ACACC00DFF6B6 /* readium-cfi-js.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-cfi-js.js.bundles.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js.bundles.js"; sourceTree = "<group>"; };
+		83F7B63F1B2ACAF300DFF6B6 /* readium-shared-js_all.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js_all.js.bundles.js"; path = "readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js.bundles.js"; sourceTree = "<group>"; };
+		83F7B6471B2ACB5200DFF6B6 /* reader_RequireJS-multiple-bundles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "reader_RequireJS-multiple-bundles.html"; path = "LauncherOSX/ReaderScripts/reader_RequireJS-multiple-bundles.html"; sourceTree = "<group>"; };
+		83F7B6481B2ACB5200DFF6B6 /* reader_RequireJS-no-optimize.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "reader_RequireJS-no-optimize.html"; path = "LauncherOSX/ReaderScripts/reader_RequireJS-no-optimize.html"; sourceTree = "<group>"; };
+		83F7B6491B2ACB5200DFF6B6 /* reader_RequireJS-single-bundle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "reader_RequireJS-single-bundle.html"; path = "LauncherOSX/ReaderScripts/reader_RequireJS-single-bundle.html"; sourceTree = "<group>"; };
+		83F7B6681B2ACE2000DFF6B6 /* epubReadingSystem.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = epubReadingSystem.sh; path = LauncherOSX/ReaderScripts/epubReadingSystem.sh; sourceTree = "<group>"; };
+		83F7B66C1B2AD70600DFF6B6 /* mathjax */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mathjax; path = LauncherOSX/ReaderScripts/mathjax; sourceTree = "<group>"; };
+		83F7B66E1B2AD72800DFF6B6 /* readium-cfi-js.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-cfi-js.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js"; sourceTree = "<group>"; };
+		83F7B66F1B2AD72800DFF6B6 /* readium-cfi-js.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-cfi-js.js.map"; path = "readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js.map"; sourceTree = "<group>"; };
+		83F7B6701B2AD72800DFF6B6 /* readium-external-libs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-external-libs.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js"; sourceTree = "<group>"; };
+		83F7B6711B2AD72800DFF6B6 /* readium-external-libs.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-external-libs.js.map"; path = "readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js.map"; sourceTree = "<group>"; };
+		83F7B6741B2AD72800DFF6B6 /* readium-shared-js.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js.js"; path = "readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js"; sourceTree = "<group>"; };
+		83F7B6751B2AD72800DFF6B6 /* readium-shared-js.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-shared-js.js.map"; path = "readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js.map"; sourceTree = "<group>"; };
+		83F7B6761B2AD72800DFF6B6 /* RequireJS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RequireJS.js; path = "readium-shared-js/build-output/_multiple-bundles/RequireJS.js"; sourceTree = "<group>"; };
+		83F7B6781B2AD72800DFF6B6 /* readium-shared-js_all.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js_all.js"; path = "readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js"; sourceTree = "<group>"; };
+		83F7B6791B2AD72800DFF6B6 /* readium-shared-js_all.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-shared-js_all.js.map"; path = "readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js.map"; sourceTree = "<group>"; };
 		850B1A5A16A61FB900619C3C /* ePub3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = ePub3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		850B1A8C16A631E800619C3C /* LOXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXUtil.h; sourceTree = "<group>"; };
 		850B1A8D16A631E800619C3C /* LOXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXUtil.mm; sourceTree = "<group>"; };
@@ -129,13 +219,11 @@
 		850B1A9416A6320200619C3C /* LOXSpineViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSpineViewController.mm; sourceTree = "<group>"; };
 		850B1A9516A6320200619C3C /* LOXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXWebViewController.h; sourceTree = "<group>"; };
 		850B1A9616A6320200619C3C /* LOXWebViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXWebViewController.mm; sourceTree = "<group>"; };
+		851FFCFD17DCFBF90090BA3C /* green_dot_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_dot_big.png; sourceTree = "<group>"; };
 		855CFDB51696200B00AD311E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		855CFE49169B912300AD311E /* LOXePubSdkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXePubSdkApi.h; sourceTree = "<group>"; };
 		855CFE4A169B912300AD311E /* LOXePubSdkApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXePubSdkApi.mm; sourceTree = "<group>"; };
 		855CFEE7169DFA3D00AD311E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		8561A1E6178B6ED1007D15D3 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "readium-shared-js/js"; sourceTree = "<group>"; };
-		8561A1E7178B6ED1007D15D3 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = "readium-shared-js/lib"; sourceTree = "<group>"; };
-		8561A1E9178B6ED1007D15D3 /* reader.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = reader.html; path = LauncherOSX/ReaderScripts/reader.html; sourceTree = "<group>"; };
 		856354F616DE7C3A009DA283 /* BookmarkDlg.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkDlg.xib; sourceTree = "<group>"; };
 		856354F816DEB3AE009DA283 /* LOXBookmarkEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBookmarkEditController.h; sourceTree = "<group>"; };
 		856354F916DEB3AF009DA283 /* LOXBookmarkEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXBookmarkEditController.m; sourceTree = "<group>"; };
@@ -153,57 +241,119 @@
 		8597D62316824655000FAAAF /* LOXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOXAppDelegate.h; sourceTree = "<group>"; };
 		8597D62416824655000FAAAF /* LOXAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXAppDelegate.mm; sourceTree = "<group>"; };
 		8597D62716824656000FAAAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		85ADCFF317B45CB5009F224E /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = "readium-shared-js/static"; sourceTree = "<group>"; };
 		85C2219E1795C607004B8E1E /* PreferencesDlg.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesDlg.xib; sourceTree = "<group>"; };
 		85C221A01795C67C004B8E1E /* LOXPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPreferencesController.h; sourceTree = "<group>"; };
-		85C221A11795C67C004B8E1E /* LOXPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXPreferencesController.m; sourceTree = "<group>"; };
+		85C221A11795C67C004B8E1E /* LOXPreferencesController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = LOXPreferencesController.m; sourceTree = "<group>"; };
 		85DC402E179074660044849D /* host_app_feedback.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = host_app_feedback.js; path = LauncherOSX/ReaderScripts/host_app_feedback.js; sourceTree = "<group>"; };
+		85F5B56318FC5FBF00FA4F57 /* LOXSpineItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOXSpineItem.h; sourceTree = "<group>"; };
 		85F74E6116C32A9900D29953 /* LOXPageNumberTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPageNumberTextController.h; sourceTree = "<group>"; };
 		85F74E6216C32A9900D29953 /* LOXPageNumberTextController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXPageNumberTextController.mm; sourceTree = "<group>"; };
-		AD8C804CD9F5C44C2FD3839C /* LOXSmilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSmilModel.h; sourceTree = "<group>"; };
-		AD8C80D1982D46C86A4BEB37 /* LOXTemporaryFileStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXTemporaryFileStorage.h; sourceTree = "<group>"; };
+		A250D0128B8A2A9185DE9538 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		A250D033A80FCFDDBF9337EE /* RDPackageResource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDPackageResource.mm; sourceTree = "<group>"; };
+		A250D0FD4F3B3C15444A85DB /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		A250D103085F86DB88825478 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		A250D18163FD7AEB8177BE46 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		A250D190907525EFC040C990 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A250D1CA922B6BFBF3A4AC9D /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		A250D295FE12B401EE0A3BB0 /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
+		A250D29AA766072A85D7B831 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		A250D2A05DDF15737FE99301 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		A250D2A7B354642ABB1F08D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A250D2C9C752B15636875329 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		A250D2E049A709ACD24F2095 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		A250D2EF60CBB04156860AA8 /* MultipartFormDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
+		A250D382CB6E5B76DDACD0A6 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		A250D39B570A41271E334B32 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A250D3AA560BDE94BBCD65C4 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
+		A250D3B2A89DEF6E73108107 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		A250D3EE97E31A737AF14E0D /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		A250D438A34A19BAFB022213 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		A250D4C9D6CACD35912BAF87 /* PackageResourceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageResourceServer.h; sourceTree = "<group>"; };
+		A250D4CAA1560BF2ACF1D824 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		A250D4CE9E080C796818B20D /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		A250D4E5BB61560475BA58DD /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		A250D509BEEFEEFD2F243BBA /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		A250D526AE6EE2567DB89648 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		A250D52D97949832213F1719 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		A250D5AB5D849D6AFBE874A9 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		A250D60744BE23ABDE720A33 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		A250D63987D30870E1E31DAA /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		A250D657C3538D2211AE4E34 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		A250D6665E5268AF4E84909A /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		A250D6708A1AAA6F4B9481C2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A250D6F32F0481E881C2523A /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		A250D70A59042BB355874BE7 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		A250D7344C9B671BFC3D6ECD /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		A250D77E99A99403191C67D6 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		A250D7D71C0547BF69AF223A /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		A250D84303C4781D9259D5C9 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		A250D875EB9F5E8C9BBA5A65 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		A250D8BC7FFD446432B1DA6F /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		A250D94A69F0A61F470B9A78 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		A250D9A940FA1593BE5148CB /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		A250DA7E497872608733C36A /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		A250DAE1E3B993805F868531 /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		A250DB0DD4746DF18C3F2E02 /* RDPackageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPackageResource.h; sourceTree = "<group>"; };
+		A250DB706A1422DFE8EF2706 /* annotations.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = annotations.css; path = LauncherOSX/ReaderScripts/annotations.css; sourceTree = "<group>"; };
+		A250DBC4A054869FB86E1CE2 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		A250DBCD25C11B7E64FA8847 /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
+		A250DBEC23CD0AC8D34BF451 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A250DC3DC918A467746254E7 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		A250DC54F81CF59C0EFBAE9F /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		A250DCD59BBBDAB2C56767C9 /* HTTPErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
+		A250DD334347D32233F96ABA /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		A250DD60BF5DB25EC732A173 /* PackageResourceServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PackageResourceServer.mm; sourceTree = "<group>"; };
+		A250DDCAA22BB17AEDB4B242 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
+		A250DEAE36DBD928D983A72A /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		A250DEE393D632D66F5FBBA8 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A250DF1068AEE3D8F97690AE /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
+		A250DF4DEA8E04C8F2CB7869 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		A250DFBDEF13882784C1472B /* MultipartFormDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
+		A250DFE9BAA1749EE0A781A1 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		AD8C8041704F29F63C6D6146 /* LOXToc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXToc.h; sourceTree = "<group>"; };
+		AD8C807DDEA3670EF1F8052E /* ico_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_rate.png; path = Resources/ico_rate.png; sourceTree = "<group>"; };
 		AD8C80DFC213AC00E000BD2C /* LOXTocView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXTocView.h; sourceTree = "<group>"; };
-		AD8C80E8161AE8C307CBD84B /* LOXCurrentPagesInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXCurrentPagesInfo.mm; sourceTree = "<group>"; };
-		AD8C8165356AF475E4C582D5 /* LOXCSSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXCSSStyle.h; sourceTree = "<group>"; };
+		AD8C815FCB8A466CB2CD343E /* LOXOpenPageInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXOpenPageInfo.mm; sourceTree = "<group>"; };
 		AD8C821D3AEC654EFB843790 /* LOXTocView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXTocView.m; sourceTree = "<group>"; };
-		AD8C822BBDDC6CE7D3881F23 /* LOXSpine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSpine.mm; sourceTree = "<group>"; };
-		AD8C8280F38E9B894E512240 /* LOXBook.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXBook.mm; sourceTree = "<group>"; };
-		AD8C8298F8C4F93253835E0E /* LOXPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPackage.h; sourceTree = "<group>"; };
-		AD8C82F57013B73CA6A6C6D0 /* LOXOpenPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXOpenPageInfo.h; sourceTree = "<group>"; };
-		AD8C833C5347AFE6E04A2943 /* LOXPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPreferences.h; sourceTree = "<group>"; };
-		AD8C83A9144B9D7D511B15B2 /* LOXTocEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXTocEntry.h; sourceTree = "<group>"; };
+		AD8C823F0CE5D0D7D14C6C4E /* LOXMediaOverlayController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXMediaOverlayController.mm; sourceTree = "<group>"; };
+		AD8C826A3CEFF13FF3AE5941 /* LOXMediaOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXMediaOverlay.h; sourceTree = "<group>"; };
+		AD8C82CA03D8D14746D2F116 /* LOXBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBook.h; sourceTree = "<group>"; };
 		AD8C83B00F9FB913F1AA9F05 /* LOXCSSParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXCSSParser.mm; sourceTree = "<group>"; };
-		AD8C83EF79530E06DC222D53 /* LOXCSSStyle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXCSSStyle.mm; sourceTree = "<group>"; };
-		AD8C841541DD1EF439C84D0E /* LOXCurrentPagesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXCurrentPagesInfo.h; sourceTree = "<group>"; };
-		AD8C842F70081FB730F15DFC /* LOXUserData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXUserData.mm; sourceTree = "<group>"; };
-		AD8C844D86553834F8FA6218 /* LOXTemporaryFileStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXTemporaryFileStorage.m; sourceTree = "<group>"; };
+		AD8C83BD068671023456294A /* LOXMediaOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXMediaOverlayController.h; sourceTree = "<group>"; };
+		AD8C8435E8408A2F80BD432B /* LOXSmilModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSmilModel.mm; sourceTree = "<group>"; };
+		AD8C843ACC17BE5B9F5CFB72 /* LOXBookmark.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXBookmark.mm; sourceTree = "<group>"; };
+		AD8C846121F8B998C2C9CF6F /* ico_tts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_tts.png; path = Resources/ico_tts.png; sourceTree = "<group>"; };
+		AD8C8493AED2C9F0FC78B428 /* LOXTocEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXTocEntry.m; sourceTree = "<group>"; };
 		AD8C84A9A8317F4A33CF8E3F /* LOXTocViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXTocViewController.mm; sourceTree = "<group>"; };
-		AD8C84B7191C8676F84497C7 /* LOXBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBookmark.h; sourceTree = "<group>"; };
+		AD8C85205029531154E4983B /* LOXPackage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXPackage.mm; sourceTree = "<group>"; };
 		AD8C8579F49901F4DF1AEECE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD8C8594D2297CA7B20F6ADE /* LOXSmilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSmilModel.h; sourceTree = "<group>"; };
 		AD8C859915BA52DF64318CB7 /* LOXCSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXCSSParser.h; sourceTree = "<group>"; };
-		AD8C86618BE15CA8D585C982 /* LOXMediaOverlay.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXMediaOverlay.mm; sourceTree = "<group>"; };
-		AD8C869CF03EFAA95618DE7C /* LOXSpine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSpine.h; sourceTree = "<group>"; };
+		AD8C86462D4DCA8A7961EE7B /* LOXCSSStyle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXCSSStyle.mm; sourceTree = "<group>"; };
 		AD8C86BBB399B4D50BC24F17 /* LOXTocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXTocViewController.h; sourceTree = "<group>"; };
-		AD8C874F5D988F316B2F82AC /* LOXTocEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOXTocEntry.m; sourceTree = "<group>"; };
-		AD8C88680CC24FB32FFF24CF /* LOXBookmark.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXBookmark.mm; sourceTree = "<group>"; };
-		AD8C888D32C974E22AB2A950 /* LOXSpineItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSpineItem.mm; sourceTree = "<group>"; };
-		AD8C8894A046205698F938E5 /* LOXSmilModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSmilModel.mm; sourceTree = "<group>"; };
-		AD8C8910CE17E16E54456051 /* LOXSMILParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSMILParser.mm; sourceTree = "<group>"; };
-		AD8C89D0C32F1DF706FD1839 /* LOXPackage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXPackage.mm; sourceTree = "<group>"; };
-		AD8C89FC764D79D48CE677C6 /* LOXToc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXToc.mm; sourceTree = "<group>"; };
-		AD8C8A53F2B1C8142438D931 /* LOXToc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXToc.h; sourceTree = "<group>"; };
-		AD8C8AEAB8B5247A5B9A5850 /* LOXPreferences.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXPreferences.mm; sourceTree = "<group>"; };
+		AD8C86C1645932986E6E6120 /* LOXSpineItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSpineItem.mm; sourceTree = "<group>"; };
+		AD8C8722AF703BEBAFF38149 /* LOXCSSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXCSSStyle.h; sourceTree = "<group>"; };
+		AD8C873FB2C2608840935697 /* LOXMediaOverlay.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXMediaOverlay.mm; sourceTree = "<group>"; };
+		AD8C87CE9BACCB0F8802A6A6 /* LOXUserData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXUserData.mm; sourceTree = "<group>"; };
+		AD8C87EB457349509F5BE4CB /* LOXPreferences.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXPreferences.mm; sourceTree = "<group>"; };
+		AD8C887C2D3DB3DAED09C59E /* LOXSpine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSpine.h; sourceTree = "<group>"; };
+		AD8C8A857C9E3D333117C28E /* LOXUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXUserData.h; sourceTree = "<group>"; };
+		AD8C8A86A687CAA9C9D80E25 /* LOXCurrentPagesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXCurrentPagesInfo.h; sourceTree = "<group>"; };
 		AD8C8AF2AB844074F32F3B5F /* LOXSampleStylesProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSampleStylesProvider.h; sourceTree = "<group>"; };
-		AD8C8B4CD982720FECC376AC /* LOXUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXUserData.h; sourceTree = "<group>"; };
-		AD8C8BD5C407A1352816C2FF /* LOXSpineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSpineItem.h; sourceTree = "<group>"; };
+		AD8C8AFA120434970585B7FD /* LOXOpenPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXOpenPageInfo.h; sourceTree = "<group>"; };
+		AD8C8B5D8280134854D94E94 /* LOXPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPackage.h; sourceTree = "<group>"; };
+		AD8C8BED6E81D7BB521ECA6A /* LOXSpine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSpine.mm; sourceTree = "<group>"; };
+		AD8C8CAC243F70317D0AE999 /* LOXToc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXToc.mm; sourceTree = "<group>"; };
 		AD8C8CF4C1B651BDFFE50D28 /* sample_styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = sample_styles.css; path = Resources/sample_styles.css; sourceTree = "<group>"; };
+		AD8C8D308BD0A3611D878245 /* LOXBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBookmark.h; sourceTree = "<group>"; };
+		AD8C8D32B501C91C77B72309 /* LOXPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXPreferences.h; sourceTree = "<group>"; };
 		AD8C8D529AEBFEB697DDD1A6 /* LOXBookmarksController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXBookmarksController.mm; sourceTree = "<group>"; };
-		AD8C8E33A0F3BD66E84F1248 /* LOXBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBook.h; sourceTree = "<group>"; };
-		AD8C8F030432B065A7CE8578 /* LOXOpenPageInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXOpenPageInfo.mm; sourceTree = "<group>"; };
+		AD8C8DA3503BCF545B3C4FDC /* LOXSpineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSpineItem.h; sourceTree = "<group>"; };
+		AD8C8EF247B16C8906794B7C /* LOXTocEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXTocEntry.h; sourceTree = "<group>"; };
+		AD8C8EF56EE23726F2B58EB0 /* LOXBook.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXBook.mm; sourceTree = "<group>"; };
 		AD8C8F410069609045A3F696 /* LOXSampleStylesProvider.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXSampleStylesProvider.mm; sourceTree = "<group>"; };
 		AD8C8FBED8EFF09E6381C68F /* LOXBookmarksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXBookmarksController.h; sourceTree = "<group>"; };
-		AD8C8FCA00AF68B93ACE1470 /* LOXSMILParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXSMILParser.h; sourceTree = "<group>"; };
-		AD8C8FED748D3CAC9EE5E476 /* LOXMediaOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOXMediaOverlay.h; sourceTree = "<group>"; };
+		AD8C8FEC6F5BC3C8D400A388 /* LOXCurrentPagesInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LOXCurrentPagesInfo.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,11 +362,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				850B1A5B16A61FB900619C3C /* ePub3.dylib in Frameworks */,
-				850B1A5916A61F9900619C3C /* libObjective-Zip.a in Frameworks */,
 				855CFEE8169DFA3E00AD311E /* libz.dylib in Frameworks */,
 				855CFDB61696200B00AD311E /* WebKit.framework in Frameworks */,
 				8597D61216824655000FAAAF /* Cocoa.framework in Frameworks */,
 				AD8C8489BFE9EF51568CC65D /* CoreData.framework in Frameworks */,
+				A250D732AF1F0DA9FD3CD96A /* IOKit.framework in Frameworks */,
+				A250D41015CDDC112DE051AE /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +377,11 @@
 		552FC46A16F39AD0000E73BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				851FFCFD17DCFBF90090BA3C /* green_dot_big.png */,
 				552FC46516F39AB5000E73BA /* icon.icns */,
 				AD8C8CF4C1B651BDFFE50D28 /* sample_styles.css */,
+				AD8C807DDEA3670EF1F8052E /* ico_rate.png */,
+				AD8C846121F8B998C2C9CF6F /* ico_tts.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -245,11 +399,28 @@
 		8561A1E4178B6EB8007D15D3 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				85ADCFF317B45CB5009F224E /* static */,
+				83F7B66E1B2AD72800DFF6B6 /* readium-cfi-js.js */,
+				83F7B66F1B2AD72800DFF6B6 /* readium-cfi-js.js.map */,
+				83F7B6701B2AD72800DFF6B6 /* readium-external-libs.js */,
+				83F7B6711B2AD72800DFF6B6 /* readium-external-libs.js.map */,
+				83F7B6741B2AD72800DFF6B6 /* readium-shared-js.js */,
+				83F7B6751B2AD72800DFF6B6 /* readium-shared-js.js.map */,
+				83F7B6761B2AD72800DFF6B6 /* RequireJS.js */,
+				83F7B6781B2AD72800DFF6B6 /* readium-shared-js_all.js */,
+				83F7B6791B2AD72800DFF6B6 /* readium-shared-js_all.js.map */,
+				83F7B66C1B2AD70600DFF6B6 /* mathjax */,
+				83F7B6681B2ACE2000DFF6B6 /* epubReadingSystem.sh */,
+				83F7B6471B2ACB5200DFF6B6 /* reader_RequireJS-multiple-bundles.html */,
+				83F7B6481B2ACB5200DFF6B6 /* reader_RequireJS-no-optimize.html */,
+				83F7B6491B2ACB5200DFF6B6 /* reader_RequireJS-single-bundle.html */,
+				83F7B63F1B2ACAF300DFF6B6 /* readium-shared-js_all.js.bundles.js */,
+				83F7B63B1B2ACACC00DFF6B6 /* readium-cfi-js.js.bundles.js */,
+				83412B271AC98D530074111F /* readium-external-libs.js.bundles.js */,
+				83412B2A1AC98D530074111F /* readium-shared-js.js.bundles.js */,
+				83D7BCF51ABA110300F541DF /* sdk.css */,
+				83766D431A0E9C53008077E1 /* epubReadingSystem.js */,
 				85DC402E179074660044849D /* host_app_feedback.js */,
-				8561A1E6178B6ED1007D15D3 /* js */,
-				8561A1E7178B6ED1007D15D3 /* lib */,
-				8561A1E9178B6ED1007D15D3 /* reader.html */,
+				A250DB706A1422DFE8EF2706 /* annotations.css */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";
@@ -257,11 +428,10 @@
 		8597D60216824655000FAAAF = {
 			isa = PBXGroup;
 			children = (
-				552FC46A16F39AD0000E73BA /* Resources */,
 				558E562716EF859800FCF273 /* ePub3.xcodeproj */,
+				552FC46A16F39AD0000E73BA /* Resources */,
 				8561A1E4178B6EB8007D15D3 /* Scripts */,
 				850B1A5A16A61FB900619C3C /* ePub3.dylib */,
-				850B1A5816A61F9900619C3C /* libObjective-Zip.a */,
 				855CFEE7169DFA3D00AD311E /* libz.dylib */,
 				855CFDB51696200B00AD311E /* WebKit.framework */,
 				8597D61716824655000FAAAF /* LauncherOSX */,
@@ -284,6 +454,8 @@
 				8597D61116824655000FAAAF /* Cocoa.framework */,
 				8597D61316824655000FAAAF /* Other Frameworks */,
 				AD8C8579F49901F4DF1AEECE /* CoreData.framework */,
+				A250D39B570A41271E334B32 /* IOKit.framework */,
+				A250D2A7B354642ABB1F08D5 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,7 +473,6 @@
 		8597D61716824655000FAAAF /* LauncherOSX */ = {
 			isa = PBXGroup;
 			children = (
-				AD8C8352A678DFED6EB3CEBF /* Model */,
 				AD8C8C165CD8EBCC0E30AE2F /* ePubSdkApi */,
 				8597D62316824655000FAAAF /* LOXAppDelegate.h */,
 				8597D62416824655000FAAAF /* LOXAppDelegate.mm */,
@@ -312,6 +483,9 @@
 				AD8C872729A8092A25A2BAE4 /* ViewControllers */,
 				AD8C845FB63B644105903B79 /* Views */,
 				85C2219E1795C607004B8E1E /* PreferencesDlg.xib */,
+				A250D23B175D03DBBBCD0E09 /* AssetData */,
+				A250DEB3BBB8221523D6AF9C /* CocoaHTTPServer */,
+				AD8C8DDC6A31E5F47859857D /* Model */,
 			);
 			path = LauncherOSX;
 			sourceTree = "<group>";
@@ -329,39 +503,145 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AD8C8352A678DFED6EB3CEBF /* Model */ = {
+		A250D16DC404E3B35E7FDBC1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AD8C84B7191C8676F84497C7 /* LOXBookmark.h */,
-				AD8C88680CC24FB32FFF24CF /* LOXBookmark.mm */,
-				AD8C8E33A0F3BD66E84F1248 /* LOXBook.h */,
-				AD8C8280F38E9B894E512240 /* LOXBook.mm */,
-				AD8C842F70081FB730F15DFC /* LOXUserData.mm */,
-				AD8C8B4CD982720FECC376AC /* LOXUserData.h */,
-				AD8C874F5D988F316B2F82AC /* LOXTocEntry.m */,
-				AD8C8A53F2B1C8142438D931 /* LOXToc.h */,
-				AD8C83A9144B9D7D511B15B2 /* LOXTocEntry.h */,
-				AD8C8BD5C407A1352816C2FF /* LOXSpineItem.h */,
-				AD8C89FC764D79D48CE677C6 /* LOXToc.mm */,
-				AD8C888D32C974E22AB2A950 /* LOXSpineItem.mm */,
-				AD8C822BBDDC6CE7D3881F23 /* LOXSpine.mm */,
-				AD8C869CF03EFAA95618DE7C /* LOXSpine.h */,
-				AD8C89D0C32F1DF706FD1839 /* LOXPackage.mm */,
-				AD8C8298F8C4F93253835E0E /* LOXPackage.h */,
-				AD8C80E8161AE8C307CBD84B /* LOXCurrentPagesInfo.mm */,
-				AD8C841541DD1EF439C84D0E /* LOXCurrentPagesInfo.h */,
-				AD8C8F030432B065A7CE8578 /* LOXOpenPageInfo.mm */,
-				AD8C82F57013B73CA6A6C6D0 /* LOXOpenPageInfo.h */,
-				AD8C8AEAB8B5247A5B9A5850 /* LOXPreferences.mm */,
-				AD8C833C5347AFE6E04A2943 /* LOXPreferences.h */,
-				AD8C83EF79530E06DC222D53 /* LOXCSSStyle.mm */,
-				AD8C8165356AF475E4C582D5 /* LOXCSSStyle.h */,
-				AD8C804CD9F5C44C2FD3839C /* LOXSmilModel.h */,
-				AD8C8894A046205698F938E5 /* LOXSmilModel.mm */,
-				AD8C86618BE15CA8D585C982 /* LOXMediaOverlay.mm */,
-				AD8C8FED748D3CAC9EE5E476 /* LOXMediaOverlay.h */,
+				A250DC54F81CF59C0EFBAE9F /* DDData.h */,
+				A250D1CA922B6BFBF3A4AC9D /* DDData.m */,
+				A250DFE9BAA1749EE0A781A1 /* DDRange.h */,
+				A250D52D97949832213F1719 /* DDRange.m */,
+				A250D60744BE23ABDE720A33 /* DDNumber.h */,
+				A250D103085F86DB88825478 /* DDNumber.m */,
 			);
-			name = Model;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A250D23B175D03DBBBCD0E09 /* AssetData */ = {
+			isa = PBXGroup;
+			children = (
+				5998CC431CD4E38400BDAF46 /* RDPackageResourceDataResponse.h */,
+				5998CC441CD4E38400BDAF46 /* RDPackageResourceDataResponse.m */,
+				5998CC3E1CD4E0CF00BDAF46 /* NSDate+RDDateAsString.h */,
+				5998CC3F1CD4E0CF00BDAF46 /* NSDate+RDDateAsString.m */,
+				A250D4C9D6CACD35912BAF87 /* PackageResourceServer.h */,
+				A250DD60BF5DB25EC732A173 /* PackageResourceServer.mm */,
+				A250DB0DD4746DF18C3F2E02 /* RDPackageResource.h */,
+				A250D033A80FCFDDBF9337EE /* RDPackageResource.mm */,
+			);
+			name = AssetData;
+			sourceTree = "<group>";
+		};
+		A250D420D59511B38F9EECF0 /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+				A250DDCAA22BB17AEDB4B242 /* MultipartMessageHeader.h */,
+				A250D3AA560BDE94BBCD65C4 /* MultipartMessageHeader.m */,
+				A250DFBDEF13882784C1472B /* MultipartFormDataParser.h */,
+				A250D2EF60CBB04156860AA8 /* MultipartFormDataParser.m */,
+				A250D875EB9F5E8C9BBA5A65 /* MultipartMessageHeaderField.h */,
+				A250D7344C9B671BFC3D6ECD /* MultipartMessageHeaderField.m */,
+			);
+			path = Mime;
+			sourceTree = "<group>";
+		};
+		A250D636070CF1639E0792E3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A250D420D59511B38F9EECF0 /* Mime */,
+				A250D8F26E047E02D669A03E /* Responses */,
+				A250D16DC404E3B35E7FDBC1 /* Categories */,
+				A250D94A69F0A61F470B9A78 /* WebSocket.h */,
+				A250D18163FD7AEB8177BE46 /* WebSocket.m */,
+				A250D526AE6EE2567DB89648 /* HTTPServer.h */,
+				A250D382CB6E5B76DDACD0A6 /* HTTPServer.m */,
+				A250D295FE12B401EE0A3BB0 /* HTTPLogging.h */,
+				A250D438A34A19BAFB022213 /* HTTPMessage.h */,
+				A250D657C3538D2211AE4E34 /* HTTPMessage.m */,
+				A250D4CAA1560BF2ACF1D824 /* HTTPResponse.h */,
+				A250D2C9C752B15636875329 /* HTTPConnection.h */,
+				A250D77E99A99403191C67D6 /* HTTPConnection.m */,
+				A250D4E5BB61560475BA58DD /* HTTPAuthenticationRequest.h */,
+				A250D29AA766072A85D7B831 /* HTTPAuthenticationRequest.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A250D8F26E047E02D669A03E /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A250DAE1E3B993805F868531 /* HTTPDataResponse.h */,
+				A250D0FD4F3B3C15444A85DB /* HTTPDataResponse.m */,
+				A250DBCD25C11B7E64FA8847 /* HTTPFileResponse.h */,
+				A250D0128B8A2A9185DE9538 /* HTTPFileResponse.m */,
+				A250DF1068AEE3D8F97690AE /* HTTPErrorResponse.h */,
+				A250DCD59BBBDAB2C56767C9 /* HTTPErrorResponse.m */,
+				A250DEAE36DBD928D983A72A /* HTTPRedirectResponse.h */,
+				A250D3B2A89DEF6E73108107 /* HTTPRedirectResponse.m */,
+				A250D4CE9E080C796818B20D /* HTTPAsyncFileResponse.h */,
+				A250D63987D30870E1E31DAA /* HTTPAsyncFileResponse.m */,
+				A250DA7E497872608733C36A /* HTTPDynamicFileResponse.h */,
+				A250D8BC7FFD446432B1DA6F /* HTTPDynamicFileResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A250D9781743E250951BBA6B /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A250D7D71C0547BF69AF223A /* DDLog.h */,
+				A250DBC4A054869FB86E1CE2 /* DDLog.m */,
+				A250DD334347D32233F96ABA /* About.txt */,
+				A250DAAB7EAA74B912568E12 /* Extensions */,
+				A250D2E049A709ACD24F2095 /* DDASLLogger.h */,
+				A250D509BEEFEEFD2F243BBA /* DDASLLogger.m */,
+				A250D84303C4781D9259D5C9 /* DDTTYLogger.h */,
+				A250D9A940FA1593BE5148CB /* DDTTYLogger.m */,
+				A250DC3DC918A467746254E7 /* DDFileLogger.h */,
+				A250DF4DEA8E04C8F2CB7869 /* DDFileLogger.m */,
+				A250D3EE97E31A737AF14E0D /* DDAbstractDatabaseLogger.h */,
+				A250DEE393D632D66F5FBBA8 /* DDAbstractDatabaseLogger.m */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		A250DAAB7EAA74B912568E12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A250D190907525EFC040C990 /* README.txt */,
+				A250D5AB5D849D6AFBE874A9 /* ContextFilterLogFormatter.h */,
+				A250D2A05DDF15737FE99301 /* ContextFilterLogFormatter.m */,
+				A250D6F32F0481E881C2523A /* DispatchQueueLogFormatter.h */,
+				A250D6665E5268AF4E84909A /* DispatchQueueLogFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A250DE26DE1967FDF26A2250 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A250D70A59042BB355874BE7 /* About.txt */,
+				A250DBEC23CD0AC8D34BF451 /* GCDAsyncSocket.h */,
+				A250D6708A1AAA6F4B9481C2 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		A250DE5CFB23F0E8B42EBB10 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A250D9781743E250951BBA6B /* CocoaLumberjack */,
+				A250DE26DE1967FDF26A2250 /* CocoaAsyncSocket */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A250DEB3BBB8221523D6AF9C /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				A250D636070CF1639E0792E3 /* Core */,
+				A250DE5CFB23F0E8B42EBB10 /* Vendor */,
+			);
+			path = CocoaHTTPServer;
 			sourceTree = "<group>";
 		};
 		AD8C835D54F353C175EF63D8 /* Utils */ = {
@@ -369,14 +649,10 @@
 			children = (
 				850B1A8C16A631E800619C3C /* LOXUtil.h */,
 				850B1A8D16A631E800619C3C /* LOXUtil.mm */,
-				AD8C844D86553834F8FA6218 /* LOXTemporaryFileStorage.m */,
-				AD8C80D1982D46C86A4BEB37 /* LOXTemporaryFileStorage.h */,
 				AD8C8F410069609045A3F696 /* LOXSampleStylesProvider.mm */,
 				AD8C8AF2AB844074F32F3B5F /* LOXSampleStylesProvider.h */,
 				AD8C83B00F9FB913F1AA9F05 /* LOXCSSParser.mm */,
 				AD8C859915BA52DF64318CB7 /* LOXCSSParser.h */,
-				AD8C8910CE17E16E54456051 /* LOXSMILParser.mm */,
-				AD8C8FCA00AF68B93ACE1470 /* LOXSMILParser.h */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -407,6 +683,8 @@
 				AD8C86BBB399B4D50BC24F17 /* LOXTocViewController.h */,
 				85C221A01795C67C004B8E1E /* LOXPreferencesController.h */,
 				85C221A11795C67C004B8E1E /* LOXPreferencesController.m */,
+				AD8C823F0CE5D0D7D14C6C4E /* LOXMediaOverlayController.mm */,
+				AD8C83BD068671023456294A /* LOXMediaOverlayController.h */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -418,6 +696,42 @@
 				855CFE4A169B912300AD311E /* LOXePubSdkApi.mm */,
 			);
 			name = ePubSdkApi;
+			sourceTree = "<group>";
+		};
+		AD8C8DDC6A31E5F47859857D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85F5B56318FC5FBF00FA4F57 /* LOXSpineItem.h */,
+				AD8C8D308BD0A3611D878245 /* LOXBookmark.h */,
+				AD8C843ACC17BE5B9F5CFB72 /* LOXBookmark.mm */,
+				AD8C82CA03D8D14746D2F116 /* LOXBook.h */,
+				AD8C8EF56EE23726F2B58EB0 /* LOXBook.mm */,
+				AD8C87CE9BACCB0F8802A6A6 /* LOXUserData.mm */,
+				AD8C8A857C9E3D333117C28E /* LOXUserData.h */,
+				AD8C8493AED2C9F0FC78B428 /* LOXTocEntry.m */,
+				AD8C8041704F29F63C6D6146 /* LOXToc.h */,
+				AD8C8EF247B16C8906794B7C /* LOXTocEntry.h */,
+				AD8C8DA3503BCF545B3C4FDC /* LOXSpineItem.h */,
+				AD8C86C1645932986E6E6120 /* LOXSpineItem.mm */,
+				AD8C8CAC243F70317D0AE999 /* LOXToc.mm */,
+				AD8C8BED6E81D7BB521ECA6A /* LOXSpine.mm */,
+				AD8C887C2D3DB3DAED09C59E /* LOXSpine.h */,
+				AD8C85205029531154E4983B /* LOXPackage.mm */,
+				AD8C8B5D8280134854D94E94 /* LOXPackage.h */,
+				AD8C8FEC6F5BC3C8D400A388 /* LOXCurrentPagesInfo.mm */,
+				AD8C8A86A687CAA9C9D80E25 /* LOXCurrentPagesInfo.h */,
+				AD8C815FCB8A466CB2CD343E /* LOXOpenPageInfo.mm */,
+				AD8C8AFA120434970585B7FD /* LOXOpenPageInfo.h */,
+				AD8C87EB457349509F5BE4CB /* LOXPreferences.mm */,
+				AD8C8D32B501C91C77B72309 /* LOXPreferences.h */,
+				AD8C86462D4DCA8A7961EE7B /* LOXCSSStyle.mm */,
+				AD8C8722AF703BEBAFF38149 /* LOXCSSStyle.h */,
+				AD8C8594D2297CA7B20F6ADE /* LOXSmilModel.h */,
+				AD8C8435E8408A2F80BD432B /* LOXSmilModel.mm */,
+				AD8C873FB2C2608840935697 /* LOXMediaOverlay.mm */,
+				AD8C826A3CEFF13FF3AE5941 /* LOXMediaOverlay.h */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +747,7 @@
 				8597D60B16824655000FAAAF /* Resources */,
 				8573952E172ADFD00071B66C /* CopyFiles */,
 				8561A1E1178B6E52007D15D3 /* CopyFiles */,
+				83766D481A0EA069008077E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -450,7 +765,7 @@
 		8597D60416824655000FAAAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Boris Schneiderman";
 			};
 			buildConfigurationList = 8597D60716824655000FAAAF /* Build configuration list for PBXProject "LauncherOSX" */;
@@ -512,13 +827,28 @@
 				552FC46616F39AB5000E73BA /* icon.icns in Resources */,
 				85C2219F1795C607004B8E1E /* PreferencesDlg.xib in Resources */,
 				AD8C8A2A8F33046528CAC333 /* sample_styles.css in Resources */,
-				85ADCFF417B45CB5009F224E /* static in Resources */,
+				AD8C83FC6397F6AECC59F1FF /* ico_rate.png in Resources */,
+				AD8C880A9CBF3B579B85F659 /* ico_tts.png in Resources */,
+				851FFCFE17DCFBF90090BA3C /* green_dot_big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		83766D481A0EA069008077E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./LauncherOSX/ReaderScripts/epubReadingSystem.sh;
+		};
 		8573953B172ED0F60071B66C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,31 +876,63 @@
 				850B1A9016A631E800619C3C /* LOXUtil.mm in Sources */,
 				850B1A9716A6320200619C3C /* LOXSpineViewController.mm in Sources */,
 				850B1A9816A6320200619C3C /* LOXWebViewController.mm in Sources */,
-				AD8C8DEDA920FC142B70BEFD /* LOXTemporaryFileStorage.m in Sources */,
 				85F74E6316C32A9900D29953 /* LOXPageNumberTextController.mm in Sources */,
 				8578F14A16D4095F003914EB /* Model.xcdatamodeld in Sources */,
 				AD8C8D0C7929CFD9F068D423 /* LOXBookmarksController.mm in Sources */,
 				856354FA16DEB3AF009DA283 /* LOXBookmarkEditController.m in Sources */,
 				AD8C89E6EDC52FCF3247DDE2 /* LOXTocViewController.mm in Sources */,
 				AD8C8661AD73F6BC538B34AB /* LOXTocView.m in Sources */,
-				AD8C8E1A55DF37104794CB0B /* LOXBookmark.mm in Sources */,
-				AD8C8673800C23241F4580E5 /* LOXBook.mm in Sources */,
-				AD8C8393EDA98F7F9606F276 /* LOXUserData.mm in Sources */,
-				AD8C8B777241C74E9F43FBC1 /* LOXTocEntry.m in Sources */,
-				AD8C88181150EF3F56F98CF6 /* LOXToc.mm in Sources */,
-				AD8C8FBE76DB2FF1310CB0F7 /* LOXSpineItem.mm in Sources */,
-				AD8C8FEC1BEE54616D993C28 /* LOXSpine.mm in Sources */,
-				AD8C8550B4555639A952A1C7 /* LOXPackage.mm in Sources */,
-				AD8C8FB20BF45E76CCD9576D /* LOXCurrentPagesInfo.mm in Sources */,
-				AD8C812AEAEAF14E13663208 /* LOXOpenPageInfo.mm in Sources */,
 				85C221A21795C67C004B8E1E /* LOXPreferencesController.m in Sources */,
-				AD8C8C250F0834BD0A00705A /* LOXPreferences.mm in Sources */,
+				83F7B67D1B2AD72800DFF6B6 /* readium-external-libs.js.map in Sources */,
 				AD8C849E0CA86BA0F7F6BC19 /* LOXSampleStylesProvider.mm in Sources */,
-				AD8C810A0BAB1FA3DE565736 /* LOXCSSStyle.mm in Sources */,
 				AD8C8AAB286212996B85854B /* LOXCSSParser.mm in Sources */,
-				AD8C8307A455F086503AB0F0 /* LOXSMILParser.mm in Sources */,
-				AD8C8F72D3753ECAFD09485C /* LOXSmilModel.mm in Sources */,
-				AD8C8325C67F7C7C8A97E7F1 /* LOXMediaOverlay.mm in Sources */,
+				AD8C83F1876FF6AE1984FF9E /* LOXMediaOverlayController.mm in Sources */,
+				A250D9ABB23991A12DD5804B /* PackageResourceServer.mm in Sources */,
+				A250D5E01BBAE6876869D474 /* RDPackageResource.mm in Sources */,
+				A250DD5C10D1CE6D1737F510 /* MultipartMessageHeader.m in Sources */,
+				A250D831FA7429B9F2B36F2B /* MultipartFormDataParser.m in Sources */,
+				A250DCEB5E33A00751B3669B /* MultipartMessageHeaderField.m in Sources */,
+				83F7B6851B2AD72800DFF6B6 /* readium-shared-js_all.js.map in Sources */,
+				A250D6DBF44801C3D1A7CF6E /* HTTPDataResponse.m in Sources */,
+				A250D446BA1276B0384939B5 /* HTTPFileResponse.m in Sources */,
+				A250D3038EB41AB2226C2DF8 /* HTTPErrorResponse.m in Sources */,
+				A250D1FD76DAB2037CC6E0AA /* HTTPRedirectResponse.m in Sources */,
+				A250D7A7787B6865760CA918 /* HTTPAsyncFileResponse.m in Sources */,
+				A250DE2BCBA3D1F1FBA35FD4 /* HTTPDynamicFileResponse.m in Sources */,
+				A250DF5C5143788C91EAA34E /* DDData.m in Sources */,
+				A250DD9FA6AD0E63D835E7BF /* DDRange.m in Sources */,
+				A250D2B4047172AADF73BB2C /* DDNumber.m in Sources */,
+				A250D4F7D74EDE9DA7E90B30 /* WebSocket.m in Sources */,
+				A250D5C257E6707C6BE17577 /* HTTPServer.m in Sources */,
+				A250DCCACA2F6BCB04D001F8 /* HTTPMessage.m in Sources */,
+				A250D7459A6A8DFB2E6FA5EC /* HTTPConnection.m in Sources */,
+				A250D78F0849C3A9EDAFB357 /* HTTPAuthenticationRequest.m in Sources */,
+				A250D13E6E7432CF2A40E446 /* DDLog.m in Sources */,
+				A250D744D6B11E11ED5EBD34 /* ContextFilterLogFormatter.m in Sources */,
+				A250DBBAE4D1A71F94E7290A /* DispatchQueueLogFormatter.m in Sources */,
+				83F7B67B1B2AD72800DFF6B6 /* readium-cfi-js.js.map in Sources */,
+				A250DA45DF0ACCA38ED50DB0 /* DDASLLogger.m in Sources */,
+				5998CC451CD4E38400BDAF46 /* RDPackageResourceDataResponse.m in Sources */,
+				83F7B6811B2AD72800DFF6B6 /* readium-shared-js.js.map in Sources */,
+				A250D1E2A3BFDE4B6603C02F /* DDTTYLogger.m in Sources */,
+				A250DBE5055F6CDD04051D05 /* DDFileLogger.m in Sources */,
+				A250DC6319E8A806D5C9ACC2 /* DDAbstractDatabaseLogger.m in Sources */,
+				A250D68A29723F304FF5A543 /* GCDAsyncSocket.m in Sources */,
+				AD8C844CC4BC879DBC059A12 /* LOXBookmark.mm in Sources */,
+				AD8C876EC2AB74129A5C39B4 /* LOXBook.mm in Sources */,
+				5998CC401CD4E0CF00BDAF46 /* NSDate+RDDateAsString.m in Sources */,
+				AD8C8764B6F6057D08B07744 /* LOXUserData.mm in Sources */,
+				AD8C808F484D84E55FCCDF93 /* LOXTocEntry.m in Sources */,
+				AD8C8EFDC93A1A1F1B7B9509 /* LOXToc.mm in Sources */,
+				AD8C81F496C12470AAAEC673 /* LOXSpineItem.mm in Sources */,
+				AD8C8310007405C604011876 /* LOXSpine.mm in Sources */,
+				AD8C87A5E0DDDFDCF558D9D9 /* LOXPackage.mm in Sources */,
+				AD8C889EA2064A49E1751C61 /* LOXCurrentPagesInfo.mm in Sources */,
+				AD8C8A793DC709C5840F79B0 /* LOXOpenPageInfo.mm in Sources */,
+				AD8C89B9DCAF136EC55932EB /* LOXPreferences.mm in Sources */,
+				AD8C8087F9E874AA24BCB4FB /* LOXCSSStyle.mm in Sources */,
+				AD8C84E70085C3887014C2B7 /* LOXSmilModel.mm in Sources */,
+				AD8C83F7C9CBF4421C50DB15 /* LOXMediaOverlay.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,15 +978,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,9 +1005,11 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -645,20 +1019,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -666,6 +1051,7 @@
 		8597D62C16824656000FAAAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -673,9 +1059,10 @@
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 					/usr/include/libxml2,
-					"${SRCROOT}/Objective-Zip/**",
 				);
 				INFOPLIST_FILE = "LauncherOSX/LauncherOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.readium-sdk.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/readium-sdk/Platform/Apple\"/**";
 				WRAPPER_EXTENSION = app;
@@ -685,15 +1072,17 @@
 		8597D62D16824656000FAAAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LauncherOSX/LauncherOSX-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 					/usr/include/libxml2,
-					"${SRCROOT}/Objective-Zip/**",
 				);
 				INFOPLIST_FILE = "LauncherOSX/LauncherOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.readium-sdk.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/readium-sdk/Platform/Apple\"/**";
 				WRAPPER_EXTENSION = app;
